@@ -48,6 +48,6 @@ function handleSearch(event) {
     })
     .finally(() => {
       hideLoader();
-      form.reset(); // Очищення поля вводу форми
+      form.reset(); 
     });
 }
